@@ -1,0 +1,11 @@
+# Never commit actual tokens or credentials
+claude_desktop_config.json
+
+# Only commit the template
+!claude_desktop_config.template.json
+
+# Backup files
+*.backup.*
+
+# OS files
+.DS_Store
